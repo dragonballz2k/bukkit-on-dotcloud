@@ -10,7 +10,7 @@ if [ -d $MINECRAFT_DIR ]; then
 else
 	mkdir -p $MINECRAFT_DIR
 	wget "$PACKAGE"
-	mv minecraft_server.jar "$MINECRAFT_DIR"
+	mv craftbukkit.jar "$MINECRAFT_DIR"
 fi
 
 cat > ~/profile << EOF
