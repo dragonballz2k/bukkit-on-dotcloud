@@ -1,7 +1,7 @@
 #!/bin/bash
 
 MINECRAFT_DIR="$HOME/data"
-PACKAGE="http://dl.bukkit.org/latest-rb/craftbukkit.jar?"
+PACKAGE="http://dl.bukkit.org/downloads/craftbukkit/get/latest-rb/craftbukkit.jar?"
 
 cd
 
