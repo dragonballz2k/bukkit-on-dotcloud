@@ -11,7 +11,7 @@ echo online-mode=false >> $MINECRAFT_DIR/server.properties #risk overload
 cat > ~/startmcserver <<EOF
 #!/bin/bash
 cd $MINECRAFT_DIR
-exec /usr/bin/java -Xmx500M -Xms64M -jar $MINECRAFT_DIR/minecraft_server.jar nogui
+exec /usr/bin/java -Xmx500M -Xms64M -jar $MINECRAFT_DIR/craftbukkit.jar nogui
 EOF
 chmod +x ~/startmcserver
 
