@@ -3,3 +3,5 @@ minecraft:
   buildscript: minecraft/builder
   ports:
     MC: tcp
+www:
+  type: php
