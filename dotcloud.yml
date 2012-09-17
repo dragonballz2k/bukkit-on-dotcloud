@@ -4,4 +4,5 @@ minecraft:
   ports:
     MC: tcp
 www:
-  type: php
+  type: static
+  approot: website
